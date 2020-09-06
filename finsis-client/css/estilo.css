@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.pai{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+/* LOGIN E CADASTRO */
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(121, 121, 218);
+    width:50vw;
+    align-items: center;
+    justify-content: center;    
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 50vw;
+    padding: 10%;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:70px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(121, 121, 218);  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+}
+
+p{
+    text-align: center;
+}
+
+/* ----------------------------------------------*/
+
+/*MENU (PAGINA INICIAL, LANCAMENTO*/
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    background-color: #121E4B;
+    width: 100%;  
+}
+
+h3{
+    color: #FFFFFF; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.menu > ul{  
+    margin: 0;
+    background-color:rgb(121, 121, 218);
+    list-style: none; 
+}
+
+.menu > ul > li{
+    display: inline; 
+}
+
+.menu > ul > li > a{
+    padding: 3px 115px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;  
+    font-weight: bold;   
+}
+
+.menu > ul > li > a:hover{
+    color: rgb(121, 121, 218);
+}
+
+.botao > input{
+    width: 90%;
+    height: 35px;
+    margin: 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #d9d9d9;
+    background-color: rgb(121, 121, 218);
+    border-radius: 5px;
+}
+
+.botao{
+    text-align: center;   
+}
+
+/* ----------------------------------------------*/
+
+.form-group > input{
+    border-radius: 5px;
+}
+
+.form-group > label{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+/* LANÇAMENTO */
+.container{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    line-height: 20px;
+    margin-top: 2%;      
+}
+
+
+.container select{
+    width: 300px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    font-family:'Montserrat', sans-serif; /* Fonte do Select */        
+}
+
+.container input{
+    width: 300px;
+    padding: 5px;
+}
+
+.box-actions{
+    margin-top: 30px;
+}
+.box-actions > input{
+    width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+.bordaFormulario{
+    border: 1px solid; 
+    border-color: #DCDCDC;
+    padding: 20px;
+    background-color: #DCDCDC;
+    border-radius: 20px;
+}
+
+.tituloCriarLancamento{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* ----------------------------------------------*/
+
+table{
+    margin-top: 5%;
+    margin-left: 15%;
+
+}
